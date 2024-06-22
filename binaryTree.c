@@ -55,7 +55,6 @@ int main()
     struct node *p = createNode(2);
     struct node *p1 = createNode(1);
     struct node *p2 = createNode(4);
-    struct node *p3 = createNode(3);
 
     // Linking the root node with left and right children
     p->left = p1;
@@ -97,7 +96,5 @@ int main()
     printNodes(p1_left);
     printNodes(p2);
     printNodes(p2_left);
-     printNodes(p3);
-
     return 0;
 }
