@@ -52,7 +52,7 @@ int main(){
     p1->left = p3;
     p1->right = p4;
 
-    struct node* n = search(p, 1);
+    struct node* n = search(p, 4);
     if(n!=NULL){
     printf("Found: %d", n->data);
     }
